@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "stack.h"
 
 int main(int argc, char *argv[])
 {
@@ -27,5 +28,6 @@ int main(int argc, char *argv[])
 
     // Closing file
     fclose(file);
+
     return 0;
 }
